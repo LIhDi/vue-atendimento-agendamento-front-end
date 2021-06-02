@@ -1,0 +1,169 @@
+{
+  "tipo-agendamento": [
+    {
+      "name": "REGISTRO DE PROFISSIONAL",
+      "code": "code_1",
+      "description": "Registro de Profissional"
+    },
+    {
+      "name": "AUTENTIFICÃO DE DOCUMENTOS",
+      "code": "code_2",
+      "description": "Autenticação de Documentos"
+    },
+    {
+      "name": "VALIDAÇÃO DE DIPLOMAS",
+      "code": "code_3",
+      "description": "Validação de Diplomas"
+    },
+    {
+      "name": "NOVO REGISTRO",
+      "code": "code_4",
+      "description": "Novo Registro"
+    }
+  ],
+  "unidades-atendimento": [
+    {
+      "name": "ANGRA DOS REIS",
+      "code": "angra_dos_reis",
+      "description": "Unidade Central de Angra dos Reis",
+      "email": "unidade_angra@gmail.com",
+      "phone": "21 3097-3453",
+      "attendants_number": 3
+    },
+    {
+      "name": "RIO DE JANEIRO",
+      "code": "rio_de_janeiro",
+      "description": "Unidade Central do Rio de Janeiro",
+      "email": "unidade_rio@gmail.com",
+      "phone": "21 3097-0000",
+      "attendants_number": 4
+    }
+  ],
+  "status-agendamento": [
+    {
+      "name": "CRIADO",
+      "code": "criado",
+      "description": "Horário criado"
+    },
+    {
+      "name": "CANCELADO",
+      "code": "cancelado",
+      "description": "Horário cancelado pelo administrador"
+    },
+    {
+      "name": "OCUPADO",
+      "code": "ocupado",
+      "description": "Horário ocupado pelo usuário"
+    }
+  ],
+  "assuntos-agendamento": [
+    {
+      "name": "REGISTRO DE PROFISSIONAL",
+      "code": "code_1",
+      "description": "Registro de Profissional"
+    },
+    {
+      "name": "AUTENTIFICÃO DE DOCUMENTOS",
+      "code": "code_2",
+      "description": "Autenticação de Documentos"
+    },
+    {
+      "name": "VALIDAÇÃO DE DIPLOMAS",
+      "code": "code_3",
+      "description": "Validação de Diplomas"
+    },
+    {
+      "name": "NOVO REGISTRO",
+      "code": "code_4",
+      "description": "Novo Registro"
+    }
+  ],
+  "users": [
+    {
+      "name": "Aline",
+      "email": "alinecsdiogo@gmail.com"
+    },
+    {
+      "name": "Ramon",
+      "email": "ramonmesquita113@gmail.com"
+    }
+  ],
+  "appointments-access": {
+    "cpfOuCnpj": "11122233344",
+    "tipoPessoa": "PESSOAFISICA",
+    "nome": "ALINE DIOGO",
+    "email": "aline.diogo@gmail.com",
+    "token": "123456789"
+  },
+  "agendados": [
+    {
+      "id": 951168,
+      "dataAgendamento": 1623861050000,
+      "assunto": {
+        "id": 7019,
+        "codigo": null,
+        "nome": null,
+        "descricao": "ACOMPANHAMENTO DE PROTOCOLO",
+        "mobile": null,
+        "viaPortal": null,
+        "ativo": null,
+        "siacol": null,
+        "assuntoConfea": null,
+        "listaAssuntoProtocolo": null,
+        "listaAssuntoSiacol": null,
+        "tipoAssunto": null,
+        "legislacao": null,
+        "tempoServico": null,
+        "pesoInstrucao": null,
+        "pesoComissao": null,
+        "pesoCamara": null,
+        "pesoPlenaria": null
+      },
+      "idAssunto": null,
+      "status": {
+        "id": 1,
+        "tipo": null,
+        "descricao": "HORÁRIO AGENDADO"
+      },
+      "tipo": {
+        "id": 1,
+        "descricao": "GERAL"
+
+      },
+      "pessoa": {
+        "id": null,
+        "nome": "RAMON FEITOSA MESQUITA DE PAIVA",
+        "email": "ramonmesquita113@gmail.com",
+        "cpf": "162.776.877-78",
+        "cnpj": "162.776.877-78"
+
+      },
+      "funcionario": {
+        "id": 1088,
+        "nome": "VANESSA GOMES"
+      },
+      "dataFormatada": "16/06/2021",
+      "idFuncionario": 1088,
+      "horaFormatada": "13:30",
+      "diaFormatado": "Quarta-feira",
+      "turno": "T",
+      "semRegistro": false,
+      "idUnidadeAtendimento": 23020401,
+      "localAtendimento": "RIO DE JANEIRO/CENTRO",
+      "siglaLocalAtendimento": "SEAT",
+      "cpfOuCnpj": "162.776.877-78",
+      "nome": "RAMON FEITOSA MESQUITA DE PAIVA",
+      "email": "ramonmesquita113@gmail.com",
+      "meioAgendamento": null,
+      "novaData": "",
+      "guiche": null,
+      "horaChegada": "",
+      "horaInicio": "",
+      "checked": false,
+      "senha": "FAF6F",
+      "telefone": "21966017683",
+      "tipoAgendamento": 1,
+      "extra": false
+    }
+  ]
+}
