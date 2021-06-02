@@ -1,4 +1,4 @@
-# Quasar App (vue-atendimento)
+# Quasar App (vue-atendimento-agendamento)
 
 A Quasar Framework app
 
@@ -7,7 +7,7 @@ A Quasar Framework app
 yarn
 ```
 
-### Start the app in local mode (hot-code reloading, error reporting, etc.)
+### Start the app in local mode
 ```bash
 npx quasar dev local=true
 ```
@@ -21,9 +21,6 @@ yarn run lint
 ```bash
 quasar build
 ```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 
 ## Para rodar o mock back-end
 
